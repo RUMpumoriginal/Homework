@@ -1,6 +1,12 @@
-input = [int(x) for x in input("Введіть кількість місячних опадів: ").split()]
+raw_input = [x for x in input("Введіть кількість місячних опадів: ").split()]
 months = ["січень", "лютий", "березень", "квітень", "травень", "червень", "липень", "серпень", "вересень", "жовтень", "листопад", "грудень"]
 
+try:
+    input = [int(x) for x in raw_input]
+
+except ValueError:
+    print("Будь ласка, введіть числа через пробіл.")
+    exit()
 
 def main ():
     suma = sum(input)
