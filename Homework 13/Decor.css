@@ -1,0 +1,23 @@
+body {
+    font-style: normal;
+}
+
+.title {
+    padding: 10px 0px 0px 675px;
+    font-size: 45px;
+}
+
+.info {
+    font-size: 20px;
+    margin: 75px 275px;
+    border: 2px dashed #b6c6d3;
+    padding-left: 10px;
+}
+
+.key_words {
+    background-color: rgba(247, 190, 169, 0.24);
+    border-radius: 10px;
+    border: 1px solid rgb(185, 114, 91);
+    font-style: normal;
+    padding-left: 5px;
+}
